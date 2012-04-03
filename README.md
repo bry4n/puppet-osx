@@ -9,7 +9,8 @@
 
 See [OSX Manifest](https://github.com/bry4n/puppet-osx/blob/master/manifests/macbook.pp) for details
 
-### Prequisties
+### Prerequisites
+
 
 * Install [Homebrew](http://mxcl.github.com/homebrew/)
 
@@ -20,15 +21,15 @@ See [OSX Manifest](https://github.com/bry4n/puppet-osx/blob/master/manifests/mac
 
 * Copy
 
-		git clone git://github.com:bry4n/puppet-osx-ruby.git puppet
+		  git clone git://github.com:bry4n/puppet-osx-ruby.git puppet
 
-* Install
+* Install (symbolic link to ~/.puppet)
 
     	rake install
 
-* Edit Manifest
+* Edit Manifest file
 
-      Edit ~/.puppet/manifests/macbook.pp
+		vim manifests/macbook.pp
 
 * Sync
 
