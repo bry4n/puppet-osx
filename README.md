@@ -1,4 +1,4 @@
-### Simple Puppet Configuration for OSX rubyist / Homebrew lovers
+### Simple Puppet Configuration for OSX 
 ---
 
 ### Features
@@ -19,7 +19,7 @@
 
 * Copy
 
-		git clone git://github.com:bry4n/puppet-osx-ruby.git puppet`
+		git clone git://github.com:bry4n/puppet-osx-ruby.git puppet
 
 * Install
 
