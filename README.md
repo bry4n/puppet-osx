@@ -7,6 +7,7 @@
 
 * Homebrew
 
+See [OSX Manifest](https://github.com/bry4n/puppet-osx/blob/master/manifests/macbook.pp) for details
 
 ### Prequisties
 
@@ -24,6 +25,10 @@
 * Install
 
     	rake install
+
+* Edit Manifest
+
+      Edit ~/.puppet/manifests/macbook.pp
 
 * Sync
 
