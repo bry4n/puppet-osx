@@ -1,0 +1,1 @@
+class { "bash-completion": }

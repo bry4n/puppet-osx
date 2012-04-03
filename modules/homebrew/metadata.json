@@ -1,0 +1,25 @@
+{
+  "summary": "Homebrew package provider",
+  "version": "0.0.1",
+  "description": "Homebrew package provider",
+  "author": "kelseyhightower",
+  "checksums": {
+    "Modulefile": "8f6637e8d485432d4689ed025cc22ad9",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "tests/init.pp": "eb711fe02a60e6adc57a99d5bed2b05d",
+    "README": "9bb215c4314a378617460502c0f262e9",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "lib/puppet/provider/package/homebrew.rb": "bcd55c5732539845a8c6440e87133762"
+  },
+  "types": [
+
+  ],
+  "license": "APACHE2",
+  "source": "https://github.com/kelseyhightower/puppet-homebrew",
+  "name": "kelseyhightower-homebrew",
+  "project_page": "https://github.com/kelseyhightower/puppet-homebrew",
+  "dependencies": [
+
+  ]
+}

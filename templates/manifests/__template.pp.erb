@@ -1,0 +1,6 @@
+class <%= module_name %> {
+  package { "<%= module_name %>":
+    ensure    => latest,
+    provider  => 'brew'
+  }
+}
