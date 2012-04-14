@@ -7,6 +7,8 @@ node default {
   include bash-completion
   include wget
   include curl
+  include ack
+  include the_silver_searcher
   include svn
   include git
   include mercurial
