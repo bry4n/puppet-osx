@@ -1,6 +1,6 @@
 node default {
   
-  $ruby_version = "1.9.3-p125"
+  $ruby_version = "1.9.3-p194"
   
   # Essentials
   include bash
@@ -25,6 +25,7 @@ node default {
   include imagemagick
   include macvim
   include ack
+  include tig
 
   # Node.js
   include nodejs
