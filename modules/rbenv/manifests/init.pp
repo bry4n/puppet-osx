@@ -10,6 +10,16 @@ class rbenv {
 }
 
 
+define rbenv_build($version) {
+ exec { "rbenv-build ${version}":
+    command => "/bin/bash -l -c 'rbenv install ${version}'",
+    timeout => 0,
+    path    => ["home/${user}/.rbenv/shims", "/home/${user}/.rbenv/bin", "/bin", "/usr/local/bin", "/usr/bin", "/usr/sbin"],
+    require => Package['ruby-build'],
+    unless  => "/bin/bash -l -c 'rbenv versions | grep ${version}'"
+  }
+}
+
 define rbenv_install($version) {
   
   exec { "rbenv-install ${version}":
